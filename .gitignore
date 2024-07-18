@@ -1,0 +1,55 @@
+# .gitignore
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Виртуальные окружения
+venv/
+ENV/
+env/
+.venv/
+.pyenv/
+*.env
+
+# Файлы конфигурации среды
+.env
+.env.*
+
+# Логи
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Модули
+node_modules/
+
+# Медиаданные
+*.mp4
+*.avi
+*.mkv
+*.log
+*.sqlite3
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.csv
+
+# Файлы редакторов и IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Дополнительно
+*.swp
